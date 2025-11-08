@@ -70,7 +70,7 @@ export default function StartInterviewPage() {
           placeholder="Job Role (e.g. Frontend Developer)"
           value={formData.role}
           onChange={handleChange}
-          className="p-3 border rounded-lg"
+          className="p-3 border rounded-lg font-bold text-lg"
           required
         />
 
@@ -80,7 +80,7 @@ export default function StartInterviewPage() {
           placeholder="Tech Stack (e.g. React, Node.js)"
           value={formData.techstack}
           onChange={handleChange}
-          className="p-3 border rounded-lg"
+          className="p-3 border rounded-lg font-bold text-lg"
           required
         />
 
@@ -88,7 +88,7 @@ export default function StartInterviewPage() {
           name="level"
           value={formData.level}
           onChange={handleChange}
-          className="p-3 border rounded-lg"
+          className="p-3 border rounded-lg bg-black text-white font-bold text-lg"
         >
           <option value="junior">Junior</option>
           <option value="mid-level">Mid-Level</option>
@@ -99,7 +99,7 @@ export default function StartInterviewPage() {
           name="type"
           value={formData.type}
           onChange={handleChange}
-          className="p-3 border rounded-lg"
+          className="p-3 border rounded-lg bg-black text-white font-bold text-lg"
         >
           <option value="technical">Technical</option>
           <option value="behavioral">Behavioral</option>
@@ -112,14 +112,14 @@ export default function StartInterviewPage() {
           placeholder="Number of Questions"
           value={formData.amount}
           onChange={handleChange}
-          className="p-3 border rounded-lg"
+          className="p-3 border rounded-lg font-bold text-lg"
           required
         />
 
         <button
           type="submit"
           disabled={loading}
-          className="bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+          className="bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition text-lg"
         >
           {loading ? "Generating..." : "Generate Interview"}
         </button>
