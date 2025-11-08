@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/google": "^2.0.26",
+    "@ai-sdk/google": "^2.0.28",
     "@hookform/resolvers": "^5.2.0",
     "@js-sdsl/ordered-map": "^4.4.2",
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-slot": "^1.2.3",
     "@vapi-ai/web": "^2.4.0",
-    "ai": "^5.0.86",
+    "ai": "^5.0.87",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.18",
